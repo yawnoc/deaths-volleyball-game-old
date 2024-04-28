@@ -1,0 +1,57 @@
+Information about object: The Ball
+
+Sprite: The Ball
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>
+
+Create Event:
+set speed relative to 8 and direction to x
+
+Collision Event with object Thy Ground:
+set the score relative to -100
+display message: YOU DIE - well, it doesn't matter because Death just gave you your life back for 100 ponits...
+restart the current room with transition effect Fade out and in
+
+Collision Event with object Thy Enemy Ground:
+set the score relative to 50
+display message: You win! (+50 points)
+go to next room with transition effect Blend
+
+Collision Event with object L1:
+bounce precisely against solid objects
+play sound Zappy; looping: false
+for other object: destroy the instance
+
+Collision Event with object L2:
+bounce precisely against solid objects
+play sound Zappy; looping: false
+for other object: change the instance into object L1, yes performing events
+
+Collision Event with object L4:
+bounce precisely against solid objects
+play sound Zappy; looping: false
+for other object: change the instance into object L3, yes performing events
+
+Collision Event with object L5:
+bounce precisely against solid objects
+play sound Zappy; looping: false
+for other object: change the instance into object L4, yes performing events
+
+Collision Event with object Wall:
+bounce not precisely against solid objects
+play sound Zappy; looping: false
+
+Collision Event with object Death's Ground:
+display message: You've defeated Death (ie; you're immortal unless you play again)!
+set the score relative to 100
+show the highscore table    background: All's Ground     don't show the border     new color: 255, other color: 0     Font: Arial,11,16711680,1,0,1,0
+end the game
+
+Collision Event with object L3:
+bounce precisely against solid objects
+for other object: change the instance into object L2, yes performing events
+play sound Zappy; looping: false

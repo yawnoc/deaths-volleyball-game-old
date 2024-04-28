@@ -1,0 +1,9 @@
+Information about object: Thy Enemy Ground
+
+Sprite: Thy Enemy Ground
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>

@@ -1,0 +1,27 @@
+Information about object: L2
+
+Sprite: L2
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>
+
+Create Event:
+set speed relative to 2 and direction to random (360)
+
+Collision Event with object Thy Ground:
+bounce precisely against solid objects
+
+Collision Event with object Thy Enemy Ground:
+bounce precisely against solid objects
+
+Collision Event with object Wall:
+bounce precisely against solid objects
+
+Collision Event with object Death's Ground:
+bounce precisely against solid objects
+
+Collision Event with object Devil wall:
+bounce precisely against solid objects

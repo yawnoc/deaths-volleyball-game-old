@@ -1,0 +1,9 @@
+Information about object: Wall
+
+Sprite: Wall
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>

@@ -1,0 +1,32 @@
+Information about object: Thy
+
+Sprite: Thy
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>
+
+Collision Event with object The Ball:
+for other object: bounce precisely against solid objects
+play sound sound1; looping: false
+set the score relative to 20
+
+Collision Event with object Thy Ground:
+start moving in directions 000010000 with speed set relative to 0
+
+Collision Event with object Wall:
+start moving in directions 000010000 with speed set relative to 0
+
+Keyboard Event for <no key> Key:
+start moving in directions 000010000 with speed set relative to 0
+
+Keyboard Event for <Space> Key:
+go to next room with transition effect Blend
+
+Keyboard Event for <Left> Key:
+start moving in directions 000100000 with speed set relative to 7
+
+Keyboard Event for <Right> Key:
+start moving in directions 000001000 with speed set relative to 7

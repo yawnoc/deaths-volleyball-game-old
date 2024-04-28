@@ -1,0 +1,9 @@
+Information about object: Thy Ground
+
+Sprite: Thy ground
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>

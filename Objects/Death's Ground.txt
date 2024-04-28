@@ -1,0 +1,9 @@
+Information about object: Death's Ground
+
+Sprite: Death's Ground
+Solid: true
+Visible: true
+Depth: 0
+Persistent: false
+Parent: <no parent>
+Mask: <same as sprite>
