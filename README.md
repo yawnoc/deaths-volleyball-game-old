@@ -6,9 +6,9 @@ The original GMK file is [`Death's Volleyball.gmk`][original].
 This repository is an attempt to make the innards viewable
 even without a copy of Game Maker.
 
-The date modified on the executable
-(not included here, but found alongside the original GMK file)
-was 2008-10-02 13:44:52.
+An executable found alongside the original GMK file
+can be found at [Release exe-2008-10-02].
 
 
 [original]: Death's%20Volleyball.gmk
+[Release exe-2008-10-02]: https://github.com/yawnoc/deaths-volleyball-game-old/releases/tag/exe-2008-10-02
