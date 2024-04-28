@@ -1,0 +1,22 @@
+Information about room: Round 3
+
+
+## objects
+
+See Round 3.png
+
+
+## settings
+
+Name: Round 3
+Caption for the room: Round 3
+Width: 640
+Height: 480
+Speed: 30
+Persistent: false
+Creation code:
+
+
+## backgrounds
+
+All's Ground (default tiling)

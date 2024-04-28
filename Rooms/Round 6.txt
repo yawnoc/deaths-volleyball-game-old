@@ -1,0 +1,22 @@
+Information about room: Round 6
+
+
+## objects
+
+See Round 6.png
+
+
+## settings
+
+Name: Round 6
+Caption for the room: Round 6
+Width: 640
+Height: 480
+Speed: 30
+Persistent: false
+Creation code:
+
+
+## backgrounds
+
+All's Ground (default tiling)

@@ -1,0 +1,22 @@
+Information about room: Round 7
+
+
+## objects
+
+See Round 7.png
+
+
+## settings
+
+Name: Round 7
+Caption for the room: Round 7
+Width: 640
+Height: 480
+Speed: 30
+Persistent: false
+Creation code:
+
+
+## backgrounds
+
+All's Ground (default tiling)
